@@ -9,7 +9,9 @@ const AdminEmailSchema = new mongoose.Schema(
       trim: true,
       lowercase: true,
     },
+    updatedAt: Date,
   },
+
   {
     timestamps: true,
   }
