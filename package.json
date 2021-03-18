@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.server.js",
   "scripts": {
-    "start": "nodemon ./src/index.server.js"
+    "start": "node ./src/index.server.js",
+    "start:dev": "nodemon ./src/index.server.js"
   },
   "license": "MIT",
   "dependencies": {
